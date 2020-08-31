@@ -3,3 +3,10 @@ nav {
     background-color: black;
     text-align: center;
 }
+
+.box {
+    background-color: lavender;
+    width: 300px;
+    margin: 60px auto;
+    padding: 10px 20px;
+}
