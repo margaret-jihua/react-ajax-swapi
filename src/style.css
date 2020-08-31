@@ -1,12 +1,32 @@
-nav {
-    color: white;
+header {
     background-color: black;
     text-align: center;
-}
-
-.box {
+    color: white;
+    font-size: 40px;
+  }
+  .starshipBtn {
     background-color: lavender;
-    width: 300px;
-    margin: 60px auto;
-    padding: 10px 20px;
-}
+    margin: 15px;
+    padding: 40px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .starshipsDiv {
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .shipDiv {
+    background-color: lavender;
+    margin: 150px auto;
+    padding: 40px;
+    width: 500px;
+    border-radius: 5px;
+  }
+  .returnBtn {
+    color: darkorchid;
+    text-decoration: none;
+  }

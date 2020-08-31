@@ -11,7 +11,7 @@ import {
 import StarshipPage from './StarshipPage'
 
 function App() {
-  const [starships, SetStarships] = useState('')
+  const [starships, SetStarships] = useState([])
 
   useEffect (() => {      
     let url = 'https://swapi.dev/api/starships'
